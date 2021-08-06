@@ -6,9 +6,9 @@ Storing fixes here.
 
 To update the puller to support windows add this to your workspace:
 
+```
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
-```
 http_file(
     name = "go_puller_windows",
     downloaded_file_path = "puller.exe",
